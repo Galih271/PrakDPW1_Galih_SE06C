@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perkenalan Boostrap 4</title>
+
+    <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- membuat navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tentang Saya</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Pencapaian & Pengalaman
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Pencapaian</a>
+                <a class="dropdown-item" href="#">Pengalaman</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Lainnya</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Hubungi Saya</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <!-- membuat jumbotron -->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Biodata</h1>
+          <p class="lead">Hai, saya Galih Putra Prdana, berikut ini adalah biodata pribadi saya 😎</p>
+        </div>
+      </div>
+        <!-- membuat kolom -->
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-2">
+                    <!-- untuk memanggil gambar -->
+                    <img src="galih di jepang.png" alt="Foto Profil" width="100%" class="rounded-circle">
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="card-title">Informasi</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">Nama Lengkap</div>
+                                    <div class="col-md-6">: Galih Putra Prdana</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">Tempat, Tanggal Lahir</div>
+                                <div class="col-md-6">: Jakarta, 24 Agustus 2002</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">Alamat</div>
+                                <div class="col-md-6">: Desa Kembangan RT 02/ 06, Kec.Bukateja, Kab.Purbalingga, Jawa Tengah</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">Kontak</div>
+                                <div class="col-md">:</div>
+                                    <div class="col-md-8">
+                            <ul>
+                            <li>galiihaja_</li>
+                            <li>Galih Putra24</li>
+                            <li>(+62) 85866206735</li>
+                            <li>galihputra576@gmail.com</li>
+                            </ul>
+                        </div>
+                        </div>
+                            <a href="#" class="btn btn-primary">More info</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <h5>Riwayat Pendidikan</h5>
+                        <div class="list-group">
+                            <div class="list-group-item list-group-item-action">
+                                <h5 class="mb-1">Institut Teknologi Telkom Purwokerto</h5>
+                                <p class="mb-1">Jurusan S1 Rekayasa Perangkat Lunak</p>
+                                <small>2020 - 2024</small>
+                        </div>
+                        <div class="list-group-item list-group-item-action">
+                                <h5 class="mb-1">SMA N 1 Bukateja</h5>
+                                <p class="mb-1">Jurusan IPA</p>
+                                <small>2017 - 2019</small>
+                        </div>
+                                <div class="list-group-item list-group-item-action">
+                                <h5 class="mb-1">SMP N 2 Bukateja</h5>
+                                <small>2013 - 2016</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-5 mb-5"><h4>Pencapaian dan Pengalaman</h4></div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card">
+                                    <div class="card-header"><h5 class="cardtitle">Pencapaian</h5></div>
+                                    <div class="list-group list-group-horizontal">
+                                    <div class="list-group-item">Juara 3 Lomba Band Musik kategori Hari Kemerdekaan </div>
+                                    <div class="list-group-item">Pencapaian 2</div>
+                                    <div class="list-group-item">Pencapaian 3</div>
+                                    <div class="list-group-item">Pencapaian 4</div>
+                                </div>
+                            </div>
+                    </div>
+                        <div class="col-md-6">
+                                <div class="card">
+                                    <div class="card-header"><h5 class="cardtitle">Pengalaman</h5></div>
+                                    <div class="list-group list-group-horizontal">
+                                    <div class="list-group-item">UI UX Research & Design - Binar Academy</div>
+                                    <div class="list-group-item">Pengalaman 2</div>
+                                    <div class="list-group-item">Pengalaman 3</div>
+                                    <div class="list-group-item">Pengalaman 4</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="text-center mt-5 mb-5"><h4>Hubungi Saya</h4></div>
+                <div class="row justify-content-center">
+                <div class="col-md-3">
+                <a href=""><img src="https://seeklogo.com/images/W/whatsapp-icon-logo-6E793ACECD-seeklogo.com.png" width="150px"></a>
+                <p class="mt-2">(+62)85866206735</p>
+            </div>
+                <div class="col-md-3">
+                <a href=""><img src="https://i.pinimg.com/originals/8f/c3/7b/8fc37b74b608a622588fbaa361485f32.png" width="150px"></a>
+                <p class="mt-2">galihputra576@gmail.com</p>
+            </div>
+                <div class="col-md-3">
+                <a href=""><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" width="150px"></a>
+                <p class="mt-2">galiihaja_</p>
+            </div>
+                <div class="col-md-3">
+                <a href=""><img src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png" width="150px"></a>
+                <p class="mt-2">Galih Putra24</p>
+            </div>
+            </div>
+            </div>
+            </div>
+
+            <div class="bg-dark text-center p-4 text-light">
+                <small>Copyright &copy; 2023. BelajarBootsteap.com | All rights reserved.</small>
+                </div>                
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
